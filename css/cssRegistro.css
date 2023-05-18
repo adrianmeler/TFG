@@ -1,0 +1,61 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkcyan;
+    font-size: 20px;
+
+}
+
+.resumen {
+    font-size: 20px;
+
+}
+
+#inputs {
+    visibility: hidden;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.form{
+    height:600px;
+    width:500px;
+    border:1px solid black;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.form h2{
+    text-align:center;
+}
+
+.datos{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#errorNombre{
+    visibility:hidden;
+}
+
+#errorApellido{
+    visibility:hidden;
+}
+
+#errorEmail{
+    visibility:hidden;
+}

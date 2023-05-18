@@ -1,0 +1,256 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+    height:40px;
+}
+
+#test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#portadaTest {
+    border: 15px solid darkcyan;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#fotoPortada {
+    width: 400px;
+}
+
+#testInicio {
+    border: 15px solid darkcyan;
+    width: 600px;
+    height: 500px;
+    display: none;
+}
+
+#opciones {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20%;
+}
+
+#botonesEneagrama{
+    margin-top: 190px;
+    display:flex;
+    justify-content: space-around;
+}
+
+#botonesEneagrama button{
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    bottom: 75px;
+}
+
+#preguntas {
+    text-align: center;
+}
+
+#opciones .opcionesdiv {
+    display: none;
+}
+
+.etiquetas{
+    display: flex;
+}
+
+#resultado1{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado2{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado3{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado4{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado5{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado6{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado7{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado8{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultado9{
+    display:none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desplegable{
+    list-style: none;
+    font-size: 15px;
+    margin-top:5px;
+}
+
+#usuario{
+    cursor:pointer;
+    
+}
+
+#contenido-menu-desplegable{
+    margin-top:10px;
+    cursor:pointer;
+    display:none;
+    
+}
+
+#imagen-portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#portada img{
+    height: 500px;
+}
+
+#mostrarResultados{
+    display: none;
+}
+
+#tipo1img{
+    width:300px;
+    height:300px;
+}
+
+#tipo2img{
+    width:300px;
+    height:300px;
+}
+
+#tipo3img{
+    width:300px;
+    height:300px;
+}
+
+#tipo4img{
+    width:300px;
+    height:300px;
+}
+
+#tipo6img{
+    width:300px;
+    height:300px;
+}
+
+#tipo7img{
+    width:300px;
+    height:300px;
+}
+
+#tipo5img{
+    width:300px;
+    height:300px;
+}
+
+#tipo8img{
+    width:300px;
+    height:300px;
+}
+
+#tipo9img{
+    width:300px;
+    height:300px;
+}
+
+.resultadosEneagrama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#comenzar{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#divResultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mostrarResultados{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,487 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+    height:40px;
+}
+
+.introMbti{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenido{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rasgo1 {
+    width: 400px;
+}
+
+.rasgo3 {
+    width: 400px;
+}
+
+.tituloTest {
+
+    text-align: center;
+}
+
+.testimg {
+
+    height: 300px;
+    margin-left: 15px;
+}
+
+#comenzar {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#startTest {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#previous {
+    width: 80px;
+}
+
+#next {
+    width: 80px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 90%;
+}
+
+#options * {
+    margin-top: 30px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+
+#buttons button{
+    width: 100%;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+
+#layout {
+    border: 1px solid black;
+}
+
+#form {
+    border: 15px solid darkcyan;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#startTest {
+    border: 15px solid darkcyan;
+    width: 600px;
+    height: 450px;
+    display: none;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#preguntas {
+    text-align: center;
+}
+
+#options .opciones {
+    display: none;
+}
+
+#resultadoESTP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoESFP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoESTJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoESFJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoENTP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoENFP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoENTJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoENFJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoISTP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoISFP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoISTJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoISFJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoINTP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoINFP {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoINTJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+#resultadoINFJ {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desplegable{
+    list-style: none;
+    font-size: 15px;
+    margin-top:5px;
+}
+
+#usuario{
+    cursor:pointer;
+    
+}
+
+#contenido-menu-desplegable{
+    margin-top:10px;
+    cursor:pointer;
+    display:none;
+    
+}
+
+#imagen-portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#portada{
+    display:flex;
+    justify-content:center;
+}
+
+#primerRasgo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.primerTexto{
+    display:flex;
+    justify-content:center;
+}
+
+#extroversionimg{
+    height:400px;
+}
+
+#introversionimg{
+    height:400px;
+}
+
+#vs{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#extroversion h2{
+    text-align:center;
+}
+
+#introversion h2{
+    text-align:center;
+}
+
+#divIntroversion{
+    display:flex;
+    justify-content:center;
+}
+
+#sentir h2{
+    text-align:center;
+}
+
+#intuir h2{
+    text-align:center;
+}
+
+#sentir div{
+    background-color: black;
+}
+
+#segundoTexto{
+    display:flex;
+    justify-content:center;
+}
+
+#tercerTexto{
+    display:flex;
+    justify-content:center;
+}
+
+#tercerRasgo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#sentimiento img{
+    height:350px;
+}
+
+#sentimiento h2{
+    text-align:center;
+}
+
+#sentimiento div{
+    display:flex;
+    justify-content:center;
+}
+
+#logica img{
+    height:400px;
+}
+
+#logica h2{
+    text-align:center;
+}
+
+#logica div{
+    display:flex;
+    justify-content:center;
+}
+
+#cuartoTexto{
+    display:flex;
+    justify-content:center;
+}
+
+#juzgar h2{
+    text-align:center;
+}
+
+#percibir h2{
+    text-align:center;
+}
+
+#portadaMbti{
+    background-image: url("../img/mbti.png");
+    height: 500px;
+}
+
+#mostrarResultado{
+    display: none;
+}
+
+#imgEnfp{
+    display:none;
+}
+
+#imgEnfj{
+    display:none;
+}
+
+#imgEntp{
+    display:none;
+}
+
+#imgEntj{
+    display:none;
+}
+
+#imgEsfp{
+    display:none;
+}
+
+#imgEsfj{
+    display:none;
+}
+
+#imgEstp{
+    display:none;
+}
+
+#imgEstj{
+    display:none;
+}
+
+#imgInfp{
+    display:none;
+}
+
+#imgInfj{
+    display:none;
+}
+
+#imgIntp{
+    display:none;
+}
+
+#imgIntj{
+    display:none;
+}
+
+#imgIsfp{
+    display:none;
+}
+
+#imgIsfj{
+    display:none;
+}
+
+#imgIstp{
+    display:none;
+}
+
+#imgIstj{
+    display:none;
+}
+
+#resultado{
+    text-align: center;
+}
+
+.resultadosMbti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.resultadosMbti img{
+    width: 200px;
+    height: 200px;
+}
+
+.etiquetas{
+    display:flex;
+}
+
+.opciones{
+    position: relative;
+    bottom: 125px;
+}
+
+#divResultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#divResultado button{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}

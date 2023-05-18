@@ -1,0 +1,69 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+    height: 40px;
+}
+
+.menu li{
+    margin-top:5px;
+}
+
+.resumen {
+    font-size: 20px;
+
+}
+
+#inputs {
+    visibility: hidden;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desplegable{
+    list-style: none;
+    font-size: 15px;
+    margin-top:5px;
+}
+
+#usuario{
+    cursor:pointer;
+    
+}
+
+#contenido-menu-desplegable{
+    margin-top:10px;
+    cursor:pointer;
+    display:none;
+    
+}
+
+#imagen-portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#botones{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#mensaje{
+    display:none;
+}
+
+#salir{
+    width:100%;
+    background-color:chartreuse;
+    border:none;
+    cursor:pointer;
+}

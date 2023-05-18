@@ -1,0 +1,79 @@
+.portada{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ #carreras img{
+    width: 400px;
+    height: 400px;
+}
+
+.quote{
+    z-index: -1;
+}
+
+.ejemploentj{
+    z-index: -1;
+}
+
+.ejemploentp{
+    z-index: -1;
+}
+
+.ejemploenfj{
+    z-index: -1;
+}
+
+.ejemploenfp{
+    z-index: -1;
+}
+
+.ejemploestj{
+    z-index: -1;
+}
+
+.ejemploestp{
+    z-index: -1;
+}
+
+.ejemploesfj{
+    z-index: -1;
+}
+
+.ejemploesfp{
+    z-index: -1;
+}
+
+.ejemplointj{
+    z-index: -1;
+}
+
+.ejemplointp{
+    z-index: -1;
+}
+
+.ejemploinfj{
+    z-index: -1;
+}
+
+.ejemploinfp{
+    z-index: -1;
+}
+
+.ejemploistj{
+    z-index: -1;
+}
+
+.ejemploisfj{
+    z-index: -1;
+}
+
+.ejemploistp{
+    z-index: -1;
+}
+
+.ejemploisfp{
+    z-index: -1;
+}

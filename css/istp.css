@@ -1,0 +1,40 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#guardarResultados{
+    border:15px solid darkcyan;
+    width:400px;
+    height:400px;
+    
+}
+
+#imgGuardar{
+    width:200px;
+    height:200px;
+}
+
+.ejemploistp{
+    border: 15px solid darkcyan;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 20px;
+}
+
+#imgIstp{
+    width: 400px;
+}

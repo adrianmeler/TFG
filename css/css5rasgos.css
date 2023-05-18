@@ -1,0 +1,167 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+    height:40px;
+}
+
+#portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#portada img{
+    height: 500px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#testPortada {
+    border: 15px solid darkcyan;
+    width: 600px;
+    height: 500px;
+}
+
+#testInicio {
+    border: 15px solid darkcyan;
+    width: 600px;
+    height: 500px;
+    display: none;
+}
+
+#options .opcionesdiv {
+    display: none;
+}
+
+.etiquetas{
+    display:flex;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#preguntas {
+    text-align: center;
+}
+
+#options {
+    margin-top: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#botones5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 220px;
+}
+
+#botones5 button{
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 80px;
+}
+
+#testPortada img {
+    height: 300px;
+}
+
+#testPortada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado {
+    border: 15px solid darkcyan;
+    width: 700px;
+    height: 700px;
+    display: none;
+}
+
+#apertura div {
+    display: none;
+}
+
+#conciencia div {
+    display: none;
+}
+
+#extraversion div {
+    display: none;
+}
+
+#amabilidad div {
+    display: none;
+}
+
+#neurotisismo div {
+    display: none;
+}
+
+#btnResultado {
+    display: none;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desplegable{
+    list-style: none;
+    font-size: 15px;
+    margin-top:5px;
+}
+
+#usuario{
+    cursor:pointer;
+    
+}
+
+#contenido-menu-desplegable{
+    margin-top:10px;
+    cursor:pointer;
+    display:none;
+    
+}
+
+#imagen-portada{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#divResultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#comenzar{
+    background-color: darkcyan;
+    border: none;
+    color: white;
+}

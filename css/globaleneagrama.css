@@ -1,0 +1,42 @@
+.ejemplo{
+    border: 15px solid darkcyan;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 20px;
+}
+
+
+
+.ejemplo img{
+    height:400px;
+    width: 400px;
+}
+#guardarResultados{
+    border:15px solid darkcyan;
+    width:400px;
+    height:400px;
+    
+}
+
+#imgGuardar{
+    width:400px;
+    height:200px;
+}
+
+.portada{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width:400px;
+    height: 400px;
+}
+
+.quote{
+    z-index: -1;
+}

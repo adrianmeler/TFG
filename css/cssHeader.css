@@ -1,0 +1,736 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkcyan;
+    font-size: 20px;
+    height: 40px;
+}
+
+.menu li {
+    margin-top: 5px;
+}
+
+.resumen {
+    font-size: 20px;
+
+}
+
+#inputs {
+    visibility: hidden;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color:white;
+}
+
+.menu-desplegable {
+    list-style: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#usuario {
+    cursor: pointer;
+    color: white;
+}
+
+#contenido-menu-desplegable {
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#imagen-portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mensaje {
+    display: none;
+}
+
+#mensaje li{
+    color: white;
+}
+
+#salir {
+    width: 100%;
+    background-color: chartreuse;
+    border: none;
+    cursor: pointer;
+}
+
+#barras{
+    display:none;
+}
+
+#menu-desplegable2{
+    display:none;
+}
+
+#portadaMbti{
+    background-image:none;
+    display:flex;
+    justify-content: center;
+}
+
+#portadaEneagrama{
+    background-image:none;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+
+#portadaRasgos{
+    display:flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#busqueda{
+    height: 30px;
+    border: none;
+}
+
+#buscar{
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+}
+
+#buscar:hover{
+    background-color:dodgerblue;
+    cursor: pointer;
+}
+
+#submenu{
+    background-color: darkcyan;
+    width:200px;
+}
+
+#submenu li{
+    margin-left: 10px;
+}
+
+#cerrar{
+    color: white;
+}
+
+#imagen-portada{
+    background-image: url("../img/personalidad.png");
+    height: 70vh;
+    width: 600px;
+}
+
+
+#imgintj{
+    display:block;
+}
+
+#imgentj{
+    display:block;
+    width: 500px;
+}
+
+#imgenfj{
+    display:block;
+}
+
+#imgenfp{
+    display:block;
+}
+
+#imgentp{
+    display:block;
+}
+
+#imgestj{
+    display:block;
+}
+
+#imginfj{
+    display:block;
+}
+
+#imgintp{
+    display:block;
+}
+
+#imgisfj{
+    display:block;
+}
+
+#imgesfp{
+    display:block;
+}
+
+#imgestp{
+    display:block;
+}
+
+#imginfp{
+    display:block;
+}
+
+#imgisfp{
+    display:block;
+}
+
+#imgistp{
+    display:block;
+}
+
+.ejemploenfj img{
+    width: 600px;
+}
+
+#buscador2{
+    display: none;
+}
+
+#cerrar{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:510px) {
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    #inicio {
+        display: none;
+    }
+
+    #myer {
+        display: none;
+    }
+
+    #eneagrama {
+        display: none;
+    }
+
+    #rasgos {
+        display: none;
+    }
+
+    #usuario {
+        position: relative;
+        right: 50px;
+    }
+
+    #barras {
+        display:block;
+        position: relative;
+        cursor: pointer;
+        left: 40px;
+    }
+
+    #menu2 li {
+        cursor: pointer;
+    }
+
+    #mensaje-2{
+        list-style: none;
+        color: white;
+    }
+
+    #cerrar2{
+        color: white;
+    }
+
+    #mensaje-2 button{
+        position: relative;
+        right: 32px;
+    }
+
+    #barras{
+        color: white;
+    }
+
+    #imagen-portada{
+        background-image: url("../img/personalidad.png");
+        height: 500px;
+    }
+
+    #portadaMbti{
+        background-image: url("../img/mbti.png");
+        height: 500px;
+        background-size: 500px 500px;
+    }
+
+    #mbtiImg{
+        display:none;
+    }
+
+    #portadaEneagrama{
+        background-image: url("../img/eneagrama.png");
+        height: 450px;
+        width: 450px;
+        background-size: 450px 450px;
+    }
+
+    #eneagramaImg{
+        display:none;
+    }
+
+    #portadaRasgos{
+        background-image: url("../img/ocean2.png");
+        height: 450px;
+        background-size: 470px 470px;
+    }
+
+    #imagen-portada{
+        background-image: url("../img/personalidad.png");
+    }
+
+    #rasgosImg{
+        display:none;
+    }
+
+    #primerRasgo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tercerRasgo{
+        display:flex;
+        flex-direction: column;
+    }
+
+    #extroversion{
+        width: 400px;
+        height: 400px;
+    }
+
+    #extroversionimg{
+        width: 400px;
+        height: 400px;
+    }
+
+    #introversion{
+        width: 400px;
+        height: 400px;
+    }
+
+    #logica{
+        border:15px solid darkcyan;
+        width:400px;
+        height:400px;
+    }
+
+    #sentimiento{
+        border:15px solid darkcyan;
+        width:400px;
+        height:400px;
+    }
+
+    #form {
+        border: 15px solid darkcyan;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    #startTest {
+        border: 15px solid darkcyan;
+        width: 500px;
+        height: 450px;
+        display: none;
+    }
+
+    .testimg{
+        width: 400px;
+    }
+
+    #portadaTest{
+        width: 400px;
+    }
+
+    #testInicio{
+        width: 400px;
+    }
+
+    #testInicio{
+        width:400px;
+    }
+
+    #testPortada{
+        width: 400px;
+    }
+
+    .ejemploenfj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploenfj div{
+        width: 400px;
+    }
+
+    .ejemploenfp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .ejemploentj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploentp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploesfj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploestp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploesfp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploestj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .ejemploinfj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemplointj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemplointp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+    
+    .ejemploisfj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 400px;
+        font-size: 20px;
+    }
+
+    .ejemploistj{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 500px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .ejemploinfp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 500px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    .ejemploistp{
+        border: 15px solid darkcyan;
+        display:flex;
+        flex-direction: column;
+        width: 500px;
+        font-size: 20px;
+        height: 400px;
+    }
+
+    #salir2 {
+        width: 200px;
+        background-color: chartreuse;
+        border: none;
+        cursor: pointer;
+    }
+
+    #menu2{
+        background-color: darkcyan;
+        margin-top: 40px;
+        width: 200px;
+    }
+
+    #menu2-lista{
+        list-style: none;
+    }
+
+    #menu2-lista li{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #imgpersonalidad{
+        display: none;
+    }
+
+    #imgIntj{
+        display:none;
+    }
+
+    #divIntj{
+        background-image: url("../imgMbti/elon-g45216b569_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgenfj{
+        display:none;
+    }
+
+    #divEnfj{
+        background-image: url("../imgMbti/obama-g85d18f3f3_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgenfp{
+        display:none;
+    }
+
+    #divEnfp{
+        background-image: url("../imgMbti/Robert Downey.png");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgentj{
+        display:none;
+    }
+
+    #divEntj{
+        background-image: url("../imgMbti/steve-jobs-g75bec3012_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgentp{
+        display:none;
+    }
+
+    #divEntp{
+        background-image: url("../imgMbti/thomas-alva-edison-g47d9ff2b3_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    
+    #imgesfj{
+        display:none;
+    }
+
+    #divEsfj{
+        background-image: url("../imgMbti/bill-clinton-g6a9b951b1_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgestj{
+        display:none;
+    }
+
+    #divEstj{
+        background-image: url("../imgMbti/judge-ge87ffdef9_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imginfj{
+        display:none;
+    }
+
+    #divInfj{
+        background-image: url("../imgMbti/martin-luther-king-ge727a9129_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgintp{
+        display:none;
+    }
+
+    #divIntp{
+        background-image: url("../imgMbti/albert-einstein-gf02cbd6af_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgisfj{
+        display:none;
+    }
+
+    #divIsfj{
+        background-image: url("../imgMbti/queen-gb04efdfac_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgistj{
+        display:none;
+    }
+
+    #divIstj{
+        background-image: url("../imgMbti/angela-merkel-g5b682955d_1920.jpg");
+        height: 400px;
+        background-size: 500px;
+    }
+
+    #usuario{
+        display:none;
+    }
+
+    #buscador2{
+        display: block;
+        position: relative;
+        right:50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #buscador2 button{
+        background-color: darkcyan;
+        color: white;
+        border: none;
+    }
+
+    #buscador2 button:hover{
+        background-color: darkblue;
+    }
+
+    #imgesfp{
+        display:none;
+    }
+
+    #divEsfp{
+        background-image: url("../imgMbti/monroe.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgestp{
+        display:none;
+    }
+
+    #divEstp{
+        background-image: url("../imgMbti/samuel.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imginfp{
+        display:none;
+    }
+
+    #divInfp{
+        background-image: url("../imgMbti/tolkien.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgisfp{
+        display:none;
+    }
+
+    #divIsfp{
+        background-image: url("../imgMbti/jackson.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgistp{
+        display:none;
+    }
+
+    #divIstp{
+        background-image: url("../imgMbti/jordan.png");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    #imgintj{
+        display:none;
+    }
+
+    #divIntj{
+        background-image: url("../imgMbti/elon-g45216b569_1920.jpg");
+        height: 200px;
+        background-size: 400px;
+    }
+
+    .ejemplo{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .imgEneagrama{
+        z-index: -1;
+    }
+}

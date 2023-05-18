@@ -1,0 +1,24 @@
+.menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkcyan;
+    font-size: 20px;
+
+}
+
+.resumen {
+    font-size: 20px;
+
+}
+
+#inputs {
+    visibility: hidden;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
